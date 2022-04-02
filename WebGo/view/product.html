@@ -1,0 +1,10 @@
+{{template "layout" .}}
+{{define "content"}}
+
+{{ range .}}
+<div class="box-with-shadow">
+    <h1>{{ .Name}}-{{ .Price}}-{{.Stock}}</h1> status:{{.StatusProduct}}
+</div>
+{{end}}
+
+{{end}}

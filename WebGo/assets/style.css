@@ -1,0 +1,6 @@
+.box-with-shadow {
+    border: 1px;
+    padding: 10px;
+    box-shadow: 5px 10px #000;
+    margin-bottom: 30px;
+}
